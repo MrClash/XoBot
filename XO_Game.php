@@ -1,6 +1,6 @@
 <?php
 
-define('BOT_TOKEN', 'Your Token');
+define('BOT_TOKEN', '259579317:AAEHsGDrF1wbz8qM5ASbBTwyMJquqNrPO-I');
 define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 function apiRequestWebhook($method, $parameters) {
@@ -357,7 +357,7 @@ function callbackMessage($callback){
 }
 
 
-define('WEBHOOK_URL', 'https://my-site.example.com/secret-path-for-webhooks/');
+define('WEBHOOK_URL', 'http://xobot-maxtg.rhcloud.com/');
 
 if (php_sapi_name() == 'cli') {
   // if run from console, set or delete webhook
